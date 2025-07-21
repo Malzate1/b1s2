@@ -7,8 +7,8 @@ public class Estadio {
     int capacidad;
 
     void mostrarInformacion() {
-
-        System.out.println("El estadio " +nombre + "queda ubicado en " +ciudad + "y tiene una capacidad para " +capacidad + "espectadores ");
+ 
+        System.out.println("El estadio " +nombre + " queda ubicado en " +ciudad + " y tiene una capacidad para " +capacidad +  " espectadores. ");
 
     }
 
