@@ -28,7 +28,7 @@ public class Main {
 
         // Atributos
 
-        jugador1.nombreJugador = "David Beckan";
+        jugador1.nombreJugador = "David Beckhan";
         jugador1.edad = 35;
         jugador1.posicion = "Delantero";
 
