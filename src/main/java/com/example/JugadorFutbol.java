@@ -10,5 +10,12 @@ public class JugadorFutbol {
 
     //Método
 
+    void presentarJugador(){
+
+        System.out.println("El jugador" +nombreJugador + " tiene" + edad + " años  y juega como " +posicion + ".");
+
+
+    }
+
 
 }
