@@ -2,9 +2,16 @@ package com.example;
 
 public class Estadio {
 
+    // Atributos
+
     String nombre;
     String ciudad;
     int capacidad;
+
+
+    //Metodo
+
+
 
     void mostrarInformacion() {
  
