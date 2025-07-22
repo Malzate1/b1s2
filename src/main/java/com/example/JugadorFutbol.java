@@ -7,6 +7,7 @@ public class JugadorFutbol {
     String nombreJugador;
     int edad;
     String posicion;
+    String nuevaPosicion;
 
     //Método
 
@@ -15,6 +16,11 @@ public class JugadorFutbol {
         System.out.println(" El jugador " +nombreJugador + " tiene " + edad + " años  y juega como " +posicion + ".");
 
 
+    }
+
+    void cambiarPosicion(){
+
+        System.out.println(" El jugador " +nombreJugador + " ahora juega como " +nuevaPosicion + ".");
     }
 
 

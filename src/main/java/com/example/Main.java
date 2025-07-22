@@ -3,6 +3,9 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
 
+
+        System.out.println("----------------------------------------");
+
         // Atributos
 
         Estadio estadio1 = new Estadio();
@@ -20,6 +23,9 @@ public class Main {
 
         estadio1.mostrarInformacion();
         estadio2.mostrarInformacion();
+
+
+        System.out.println("----------------------------------------");
 
         // Ejercicio jugadores de fútbol--- Instaciación:
 
@@ -40,6 +46,20 @@ public class Main {
 
         jugador1.presentarJugador();
         jugador2.presentarJugador();
+
+
+        System.out.println("------------------------------------------");
+
+        // Nueva posición
+
+        jugador1.nuevaPosicion = "Medio campista";
+        jugador2.nuevaPosicion = "Defensor";
+
+        // Método cambio posición jugador
+
+
+        jugador1.cambiarPosicion();
+        jugador2.cambiarPosicion();
 
     }
 }
